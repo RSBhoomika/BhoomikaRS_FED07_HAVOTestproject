@@ -8,8 +8,6 @@
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
@@ -631,7 +629,7 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -882,7 +880,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -3582,7 +3580,7 @@ textarea.form-control-lg {
   left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -4111,7 +4109,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4616,7 +4614,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -5139,7 +5137,7 @@ textarea.form-control-lg {
   border-left-width: 1px;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5587,7 +5585,7 @@ textarea.form-control-lg {
   margin: 0.25rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -6535,7 +6533,7 @@ textarea.form-control-lg {
   z-index: 1020;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .sticky-sm-top {
     position: -webkit-sticky;
     position: sticky;
@@ -7964,7 +7962,7 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
-@media (min-width: 576px) {
+@media (min-width:375px) {
   .float-sm-start {
     float: left !important;
   }
